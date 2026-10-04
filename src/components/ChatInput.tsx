@@ -13,7 +13,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({
   inputText,
   setInputText,
   isListening,
-  setIsListening,
+  // setIsListening,
   isLoading,
   onSubmit,
 }) => {
@@ -33,15 +33,6 @@ export const ChatInput: React.FC<ChatInputProps> = ({
         />
       </div>
       <div className="wrapper">
-        <button
-          type="button"
-          onClick={() => setIsListening(!isListening)}
-          title="Голосовой ввод"
-          className={`voice-btn ${isListening ? "listening" : ""}`}
-        >
-          Диктовать
-        </button>
-
         <button
           onClick={onSubmit}
           disabled={isLoading || !inputText.trim()}

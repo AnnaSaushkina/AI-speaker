@@ -51,8 +51,8 @@
 
 .voice-btn {
   position: absolute;
-  right: 12px;
-  top: 14px;
+  right: 0;
+  top: 0;
   padding: 6px 12px;
   border-radius: 12px;
   font-size: 12px;

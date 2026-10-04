@@ -163,10 +163,10 @@ p {
     }
   }
 }
-.center {
+/* .center {
   display: flex;
   justify-content: center;
-}
+} */
 
 #spacer {
   height: 88px;

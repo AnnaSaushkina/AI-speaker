@@ -79,7 +79,7 @@ export default function App() {
   return (
     <div className="center min-h-screen bg-[#090d16] text-slate-100 flex flex-col items-center justify-start py-10 px-4 font-sans">
       <div className="w-full max-w-2xl bg-[#111827] border border-slate-800/80 rounded-3xl p-6 md:p-8 shadow-2xl flex flex-col gap-6">
-        <Header />
+        <Header isListening={isListening} setIsListening={setIsListening} />
         <ChatInput
           inputText={inputText}
           setInputText={setInputText}
